@@ -1,0 +1,95 @@
+/*Estilo do Conversor*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://images2.alphacoders.com/205/205032.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 320px;
+  } 
+
+  .alura-logo {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  .alura-logo:hover {
+    opacity: 0.7;
+  }
+
+  #prompt-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #e4d232;
+    color: white;
+    border-width: 4px;
+    border-color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #prompt-button:hover {
+    background-color: #a7973c;
+    opacity: 0.9;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .copyright:hover {
+    opacity: 0.7;
+  }
+  
